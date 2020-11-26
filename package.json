@@ -7,20 +7,20 @@
     "test": "./node_modules/.bin/mocha \"test/**/*.mocha.js\"; ./node_modules/.bin/jshint components/**/*.js lib/**/*.js test/**/*.js"
   },
   "dependencies": {
-    "bcrypt": "^0.8.0",
-    "bcryptjs": "^2.0.2",
-    "extend": "~1.2.1",
-    "ms": "^0.6.2",
-    "passport": "~0.2.1",
-    "superagent": "~0.19.1",
-    "scrypt": "*",
-    "scryptsy": "*"
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "extend": "~3.0.2",
+    "ms": "^2.1.2",
+    "passport": "~0.4.1",
+    "scrypt": "^6.0.3",
+    "scryptsy": "^2.1.0",
+    "superagent": "~6.1.0"
   },
   "devDependencies": {
     "jshint": "*",
+    "livedb-mongo-memory": "*",
     "mocha": "*",
-    "racer": "*",
-    "livedb-mongo-memory": "*"
+    "racer": "*"
   },
   "repository": {
     "type": "git",
